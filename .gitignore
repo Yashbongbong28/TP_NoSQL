@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+**/data/
+**/volumes/
+**/logs/
+**/*.log
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# Archives volumineuses des images Docker
+**/images-*.tar
+*.tar
